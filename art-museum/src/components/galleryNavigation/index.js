@@ -4,7 +4,7 @@ import './GalleryNavigation.css'
 const GalleryNavigation = ({ galleries }) => {
   const galleryLinks = galleries.map((gallery) => {
     return (
-      <NavLink key={gallery.id}  to={`/galleries/${gallery.id}`}>
+      <NavLink key={gallery.id} to={`/galleries/${gallery.id}`}>
         <p >{gallery.name}</p>
       </NavLink>
     );

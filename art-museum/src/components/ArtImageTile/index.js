@@ -3,8 +3,6 @@ import { Link, useParams } from "react-router-dom";
 
 
 const ArtImageTile = ({ art, galleryId }) => {
-    // console.log(art)
-    // const {artId} = useParams()
   return (
     <>
     <Link to={`/galleries/${galleryId}/art/${art.id}`}>
